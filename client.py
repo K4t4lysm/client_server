@@ -48,6 +48,7 @@ class MyClient: # Klasse für den SocketClient
 
 client = MyClient()  # Instanziiere Client-Objekt
 while client.laufzeit >= 0:  # Prüfe ob Laufzeit >=0 ist
+    print(MyClient().laufzeit)
     None  # Alles bleibt aktiv
 client.stopp_connection()  # Leite Beendigung der Threads und der
 # Socketverbindung ein

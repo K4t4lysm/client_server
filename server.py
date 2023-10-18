@@ -56,5 +56,6 @@ class MyServer: # Klasse für den Socket-Server
 
 server = MyServer()  # Instanziiere Server-Objekt
 while server.laufzeit >= 0:  # Prüfe ob Laufzeitzähler >=0 ist
-    None  # Alles bleibt aktiv
+    print(MyServer().laufzeit)
+    None
 server.stopp_connection()
